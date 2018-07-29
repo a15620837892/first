@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<!--声明文档兼容模式，表示使用IE浏览器的最新模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--设置视口的宽度(值为设备的理想宽度)，页面初始缩放值<理想宽度/可见宽度>-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>首页</title>
+
+		<!-- 引入Bootstrap核心样式文件 -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<!-- 引入自己的样式文件 -->
+		<link href="css/indexstyle.css" rel="stylesheet">
+		<!-- 引入jQuery核心js文件 -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<!-- 引入BootStrap核心js文件 -->
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!--top部分-->
+		<div class="row" style="background-color:#09162e" id="top">
+		  <div class="col-md-8 col-md-offset-1">
+			<ul class="list-inline">
+				<li>壹 : <span>123.10</span></li>
+				<li>贰 : <span>223.20</span></li>
+				<li>叁 : <span>333.30</span></li>
+			</ul>
+		</div>
+		  <div class="col-md-3">
+			<ul class="list-inline">
+				<li>注册</li>
+				<li>|</li>
+				<li>登录</li>
+			</ul>
+		  </div>
+		</div>
+
+	<!--top-bom部分-->
+
+	<div class="row" id="top-bom">
+		  <div class="col-md-8 col-md-offset-1">
+			<ul class="list-inline" id="ul1">
+				<li style="color:#de5959">首页</li>
+				<li>安全设置</li>
+				<li>我的财务</li>
+				<li>公告</li>
+				<li>上币申请</li>
+			</ul>
+		</div>
+		  <div class="col-md-3">
+			<ul class="list-inline">
+				<li>图1</li>
+				<li>图2</li>
+				<li>图3</li>
+				<li>提交工单</li>
+			</ul>
+		  </div>
+		</div>
+
+		<!--轮播图部分-->
+
+		<div class="row" id="mid">
+
+			 <div class="col-md-8 col-md-offset-1">
+			  <div id="" class="mid-div1">
+				<center><h1 style="font-size:50px">秒冲秒提，体验前所未有！</h1></center>
+			  </div>
+			  <div>
+			   <center>
+			     <ul class="list-inline" style="font-size:20px">
+					<li><a href="#" style="color:white">●</a></li>
+					<li><a href="#" style="color:white">●</a></li>
+					<li><a href="#" style="color:white">●</a></li>
+					<li><a href="#" style="color:white">●</a></li>
+			     </ul>
+				</center>
+		     </div>
+		  </div>
+
+		  <div class="col-md-2"id="login">
+		  <h4>登录</h4>
+			<form>
+			  <div class="form-group"style="margin-bottom:10px">
+				<input type="username" class="form-control" id="exampleInputEmail1" placeholder="用户名">
+			  </div>
+			  <div class="form-group"style="margin-bottom:10px">
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码">
+			  </div>
+			  <div class="form-group"style="margin-bottom:10px">
+				<input type="text" class="form-control" placeholder="验证码" style="width:50%">
+			  </div>
+			  <button type="submit" class="btn btn-warning" style="width:100%">登录</button>
+			</form>
+			<a href="#">忘记密码？</a><a href="#" style="float:right">新用户注册</a>
+		  </div>
+		</div>
+			<!--交易区部分-->
+		<div class="row" id="sell">
+		  <div class="col-md-10 col-md-offset-1" style="margin-top:7px;">
+		  <center>
+			<ul class="list-inline">
+				<li>壹 : <span>123.10</span></li>
+				<li>贰 : <span>223.20</span></li>
+				<li>叁 : <span>333.30</span></li>
+			</ul>
+		 </center>
+		</div>
+		  </div>
+		
+		
+
+		<!--搜索框与股票表格部分-->
+		<div class="row" id="seacher">
+		  <div class="col-md-2 col-md-offset-9">
+		    <form>
+			 <div class="form-group"style="margin-top:10px">
+				<input type="username" class="form-control" id="exampleInputEmail1" placeholder="搜索">
+			  </div>
+			 <form>
+		   </div>
+
+		   <div class="col-md-10 col-md-offset-1">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>股票</th>
+							<th>最新成交价格</th>
+							<th>成交时间</th>
+							<th>成交量</th>
+							<th>日涨跌<th>
+						</tr>
+					</thead>
+					
+					<tbody>
+					
+						<tr>
+							<td>开放浏览</td>
+							<td>admin</td>
+							<td>已审核</td>
+							<td>128</td>
+							<td>128</td>
+						</tr>
+						
+						<tr>
+							<td>开放浏览</td>
+							<td></td>
+							<td>未审核</td>
+							<td>235</td>
+							<td>128</td>
+						</tr>
+						
+						<tr>
+							<td>开放浏览</td>
+							<td>admin</td>
+							<td>已审核</td>
+							<td>100</td>
+							<td>128</td>
+						</tr>
+						
+						<tr>
+							<td>开放浏览</td>
+							<td>user</td>
+							<td>已审核</td>
+							<td>96</td>
+							<td>128</td>
+						</tr>
+						
+						<tr>
+							<td>开放浏览</td>
+							<td>admin</td>
+							<td>已审核</td>
+							<td>45</td>
+							<td>128</td>
+					    </tr>
+					
+					</tbody>
+				</table>
+		   </div>
+		</div>
+
+		
+	</body>
+
+</html>

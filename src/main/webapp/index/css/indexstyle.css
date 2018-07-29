@@ -1,0 +1,128 @@
+            
+			
+			
+			
+			a:link { 
+				color:#333;
+				text-decoration:none;
+			} 
+			a:visited { 
+				color:#333; 
+				text-decoration:none; 
+			} 
+			a:hover { 
+				color:#de5959; 
+				text-decoration:none; 
+			} 
+			a:active { 
+				color:#de5959; 
+				text-decoration:none; 
+			} 
+			
+			
+			
+			
+			#top{
+				background-color:#09162e;
+			}
+			#top div{
+				color:white;
+				margin-top:8px;
+			}
+			#top div span{
+				color:#de5959;
+			}
+			#top div a:link{
+				color:white;
+				text-decoration:none;
+			}
+			#top div a:visited { 
+				color:white; 
+				text-decoration:none; 
+			} 
+			#top-bom div{
+				margin-top:15px;
+			}
+			#top-bom div #ul1{
+				font-size:17px;
+			}
+			
+			#mid{
+				  background: rgb(150, 37, 54);
+				   /*  background: -moz-linear-gradient(top,  #000000 0%, #ffffff 100%);
+				    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ffffff));
+				    background: -webkit-linear-gradient(top,  #000000 0%,#ffffff 100%);
+				    background: -o-linear-gradient(top,  #000000 0%,#ffffff 100%);
+				    background: -ms-linear-gradient(top,  #000000 0%,#ffffff 100%);
+				    background: linear-gradient(to bottom,  #000000 0%,#ffffff 100%);
+				    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); */
+				
+				
+			}
+			/* :root #mid{filter:none;} */
+			.mid-div1{
+				color:white;
+				margin-top:50px;
+				height:150px;
+			}
+			#login{
+				background-color:white;
+				margin-bottom:10px;
+				margin-top:10px;
+	            opacity:0.8;
+			}
+			#usermsg{
+				display: none;
+				height: 225px;
+				background-color:white;
+				margin-bottom:10px;
+				margin-top:10px;
+	            opacity:0.8;
+			}
+			#usermsg p{
+				margin-top:10px;
+			}
+			#usermsg p span{
+				color: red;
+			}
+			#sell{
+				background-color:#333;
+                margin-top:1px;
+				color:#eee;
+				font-size:22px;
+			}
+			
+			#foot-ul a:link{
+				color:#aaa; 
+			}
+			#foot-ul a:visited { 
+				color:#aaa; 
+			} 
+			#foot-ul a:hover { 
+				color:#de5959;
+			} 
+			#foot-ul li{
+				padding-left: 50px;
+				padding-right: 50px;
+				
+			}
+			
+			#foot-img img{
+				width: 50px;
+				height: 50px;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
